@@ -1,2 +1,4 @@
 import NewsController from './app/index';
-new NewsController();
+import fetchService from './app/utils/fetch';
+
+new NewsController(fetchService);
